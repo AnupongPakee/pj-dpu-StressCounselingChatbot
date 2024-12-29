@@ -1,0 +1,32 @@
+/* Component App.jsx */
+.home .content-left h1 {
+    text-transform: uppercase;
+    color: #E0EAFC;
+    transition: all 0.4s ease-in-out;
+}
+
+.home .content-left h1:hover {
+    text-shadow: 0 0 1rem #E0EAFC;
+}
+
+.home .link {
+    padding-top: 2.6rem;
+}
+
+.home .link a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    color: #E0EAFC;
+    border: 2px solid #E0EAFC;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.home .link a:hover {
+    background-color: #E0EAFC;
+    color: #6F3089;
+    font-weight: bold !important;
+}
