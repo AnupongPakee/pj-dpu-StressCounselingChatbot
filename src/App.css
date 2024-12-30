@@ -21,15 +21,3 @@
 .not-support p {
   color: #E0EAFC;
 }
-
-.w-h {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.6rem;
-  color: #E0EAFC;
-  background-color: #6F3089;
-  border: 2px solid #E0EAFC;
-  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.5);
-  z-index: 100;
-}

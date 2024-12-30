@@ -23,9 +23,6 @@ function App() {
       <div className="not-support">
         <p style={STYLE.font_family.en}>Not Support Screen Size ({window.screen.width}x{window.screen.height})</p>
       </div>
-      <div className="w-h">
-        <p style={STYLE.font_family.en}>{window.screen.width}x{window.screen.height}</p>
-      </div>
     </div>
   )
 }
