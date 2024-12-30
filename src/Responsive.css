@@ -17,7 +17,8 @@
     * {
         font-size: 14px;
     }
-    .home .bg-2, .home .bg-3 {
+    .home .bg-2, .home .bg-3,
+    .login .bg-2, .login .bg-3 {
         display: none;
     }
 
@@ -25,16 +26,59 @@
         padding-left: 1rem;
     }
 
-    .home .content-left h1 {
+    .home .content-left h1,
+    .login .content-left h1 {
         font-size: 2.6rem;
         max-width: 100px;
     }
-
+    
     .home .link a {
         font-size: 1rem;
         padding: 0.8rem;
         border-radius: 2rem;
     }
+
+    .login .content {
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    .login .content-left {
+        display: none;
+    }
+
+    .login .content-right {
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+
+    .login .content-right p {
+        padding-bottom: 1rem;
+    }
+
+    .login .content-right h1 {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .login .content-right .input {
+        max-width: 300px;
+        padding: 0.2rem;
+        margin-bottom: 1.6rem;
+        border-radius: 2rem;
+    }
+
+    .login .content-right form input {
+        max-width: 300px;
+        padding-left: 0.6rem;
+    }
+
+    .login .content-right button {
+        margin-bottom: 1.6rem;
+        padding: 0.4rem 1rem;
+        border-radius: 2rem;
+    }
+    
 }
 
 @media screen and (min-width: 414px) {
@@ -51,15 +95,31 @@
         font-size: 20px;
     }
 
-    .home .bg-2 {
+    .home .bg-2,
+    .login .bg-2 {
         display: flex;
     }
 }
 
 @media screen and (min-width: 960px) {
-    .home .bg-3 {
+    .home .bg-3,
+    .login .bg-3 {
         display: flex;
     }
+
+    .login .content {
+        justify-content: space-between;
+        padding: 1.6rem !important;
+    }
+
+    .login .content-left {
+        display: flex;
+    }
+
+    .login .content-right p {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -75,8 +135,5 @@
 /* Desktop */
 /* 1280x720 (min) */
 /* 1920x1080 (max) */
-@media screen and (min-width: 1920px) {
-    * {
-        font-size: 28px;
-    }
-}
+/* @media screen and (min-width: 1920px) {
+} */

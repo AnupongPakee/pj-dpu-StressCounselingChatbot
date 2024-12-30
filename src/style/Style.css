@@ -1,11 +1,13 @@
-/* Component App.jsx */
-.home .content-left h1 {
+/* Component App.jsx + Login.jsx */
+.home .content-left h1,
+.login .content-left h1 {
     text-transform: uppercase;
     color: #E0EAFC;
     transition: all 0.4s ease-in-out;
 }
 
-.home .content-left h1:hover {
+.home .content-left h1:hover,
+.login .content-left h1:hover {
     text-shadow: 0 0 1rem #E0EAFC;
 }
 
@@ -29,4 +31,93 @@
     background-color: #E0EAFC;
     color: #6F3089;
     font-weight: bold !important;
+}
+
+/* Components Login.jsx */
+.login .content {
+    justify-content: space-between;
+}
+
+.login .content-right {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid #E0EAFC;
+}
+
+.login .content-right p {
+    text-transform: uppercase;
+    color: #E0EAFC;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.login .content-right p:hover {
+    text-shadow: 0 0 0.4rem #E0EAFC;
+}
+
+.login .content-right h1 {
+    color: #E0EAFC;
+}
+
+.login .content-right .input {
+    display: flex;
+    align-items: center;
+    border: 2px solid #E0EAFC;
+    transition: all 0.4s ease-in-out;
+}
+
+.login .content-right .input:hover {
+    box-shadow: 0 0 0.4rem #E0EAFC;
+}
+
+.login .content-right form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .content-right form input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #E0EAFC;
+}
+
+.login .content-right form input::placeholder {
+    color: #E0EAFC;
+}
+
+.login .content-right .icon {
+    padding-left: 0.4rem;
+    color: #E0EAFC;
+}
+
+.login .content-right .icon-pass {
+    padding-left: 0.4rem;
+    color: #E0EAFC;
+    cursor: pointer;
+}
+
+.login .content-right button {
+    background: none;
+    color: #E0EAFC;
+    border: 2px solid #E0EAFC;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.login .content-right button:hover {
+    background-color: #E0EAFC;
+    color: #6F3089;
+    font-weight: bold !important;
+}
+
+.login .content-right a {
+    text-decoration: none;
+    color: #E0EAFC;
+    transition: all 0.4s ease-in-out;
+}
+
+.login .content-right a:hover {
+    text-shadow: 0 0 0.4rem #E0EAFC;
 }
