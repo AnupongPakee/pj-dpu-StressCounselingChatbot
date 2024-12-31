@@ -65,14 +65,14 @@ function Register() {
                 <input type="text" style={STYLE.font_family.th} name='username' placeholder='ชื่อผู้ใช้' required />
               </div>
               <div className="input">
-                <FontAwesomeIcon icon={faShieldHalved} className='icon-pass' />
-                <FontAwesomeIcon icon={faEye} className='icon-pass' />
-                <input type="password" style={STYLE.font_family.th} name='password' placeholder='รหัสผ่าน' required />
+                <FontAwesomeIcon icon={faShieldHalved} className='icon-pass' id='new_faHavled' onClick={() => showPassword("showpass_1")} />
+                <FontAwesomeIcon icon={faEye} className='icon-pass' id='new_faEye' style={{display: "none"}} onClick={() => showPassword("showpass_1")} />
+                <input type="password" style={STYLE.font_family.th} name='password' id='new_password' placeholder='รหัสผ่าน' required />
               </div>
               <div className="input">
-                <FontAwesomeIcon icon={faShieldHalved} className='icon-pass' />
-                <FontAwesomeIcon icon={faEye} className='icon-pass' />
-                <input type="password" style={STYLE.font_family.th} name='confirm_password' placeholder='ยืนยันรหัสผ่าน' required />
+                <FontAwesomeIcon icon={faShieldHalved} className='icon-pass' id='confirm_faHavled' onClick={() => showPassword("showpass_2")} />
+                <FontAwesomeIcon icon={faEye} className='icon-pass' id='confirm_faEye' style={{display: "none"}} onClick={() => showPassword("showpass_2")} />
+                <input type="password" style={STYLE.font_family.th} id='confirm_password' name='confirm_password' placeholder='ยืนยันรหัสผ่าน' required />
               </div>
               <div className="input">
                 <FontAwesomeIcon icon={faEnvelope} className='icon'/>
@@ -83,6 +83,9 @@ function Register() {
             </div>
           </form>
         </div>
+      </div>
+      <div className="not-support">
+        <p style={STYLE.font_family.en}>Not Support Screen Size ({window.screen.width}x{window.screen.height})</p>
       </div>
     </div>
   )

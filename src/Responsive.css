@@ -12,7 +12,8 @@
         font-size: 14px;
     }
     .home .bg-2, .home .bg-3,
-    .login .bg-2, .login .bg-3 {
+    .login .bg-2, .login .bg-3,
+    .register .bg-2, .register .bg-3 {
         display: none;
     }
 
@@ -21,7 +22,8 @@
     }
 
     .home .content-left h1,
-    .login .content-left h1 {
+    .login .content-left h1,
+    .register .content-left h1 {
         font-size: 2.6rem;
         max-width: 100px;
     }
@@ -32,42 +34,50 @@
         border-radius: 2rem;
     }
 
-    .login .content {
+    .login .content,
+    .register .content {
         justify-content: center;
         padding: 0 !important;
     }
 
-    .login .content-left {
+    .login .content-left,
+    .register .content-left {
         display: none;
     }
 
-    .login .content-right {
+    .login .content-right,
+    .register .content-right {
         padding: 1rem;
         border-radius: 2rem;
     }
 
-    .login .content-right p {
+    .login .content-right p,
+    .register .content-right p {
         padding-bottom: 1rem;
     }
 
-    .login .content-right h1 {
+    .login .content-right h1,
+    .register .content-right h1 {
         font-size: 1.6rem;
         padding-bottom: 1rem;
     }
 
-    .login .content-right .input {
+    .login .content-right .input,
+    .register .content-right .input {
         max-width: 300px;
         padding: 0.2rem;
         margin-bottom: 1.6rem;
         border-radius: 2rem;
     }
 
-    .login .content-right form input {
+    .login .content-right form input,
+    .register .content-right form input {
         max-width: 300px;
         padding-left: 0.6rem;
     }
 
-    .login .content-right button {
+    .login .content-right button,
+    .register .content-right button {
         margin-bottom: 1.6rem;
         padding: 0.4rem 1rem;
         border-radius: 2rem;
@@ -90,27 +100,32 @@
     }
 
     .home .bg-2,
-    .login .bg-2 {
+    .login .bg-2,
+    .register .bg-2 {
         display: flex;
     }
 }
 
 @media screen and (min-width: 960px) {
     .home .bg-3,
-    .login .bg-3 {
+    .login .bg-3,
+    .register .bg-3 {
         display: flex;
     }
 
-    .login .content {
+    .login .content,
+    .register .content {
         justify-content: space-between;
         padding: 1.6rem !important;
     }
 
-    .login .content-left {
+    .login .content-left,
+    .register .content-left {
         display: flex;
     }
 
-    .login .content-right p {
+    .login .content-right p,
+    .register .content-right p {
         display: none;
     }
 
@@ -134,11 +149,13 @@
         font-size: 24px;
     }
 
-    .login .content-right .input {
+    .login .content-right .input,
+    .register .content-right .input {
         max-width: 400px;
     }
 
-    .login .content-right {
+    .login .content-right,
+    .register .content-right {
         padding: 2.6rem;
     }
 }

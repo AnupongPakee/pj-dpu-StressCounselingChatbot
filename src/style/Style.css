@@ -1,13 +1,15 @@
-/* Component App.jsx + Login.jsx */
+/* Component App.jsx + Login.jsx + Register.jsx */
 .home .content-left h1,
-.login .content-left h1 {
+.login .content-left h1,
+.register .content-left h1 {
     text-transform: uppercase;
     color: #E0EAFC;
     transition: all 0.4s ease-in-out;
 }
 
 .home .content-left h1:hover,
-.login .content-left h1:hover {
+.login .content-left h1:hover,
+.register .content-left h1:hover {
     text-shadow: 0 0 1rem #E0EAFC;
 }
 
@@ -33,72 +35,85 @@
     font-weight: bold !important;
 }
 
-/* Components Login.jsx */
-.login .content {
+/* Components Login.jsx + Register.jsx */
+.login .content,
+.register .content {
     justify-content: space-between;
 }
 
-.login .content-right {
+.login .content-right,
+.register .content-right {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid #E0EAFC;
 }
 
-.login .content-right p {
+.login .content-right p,
+.register .content-right p {
     text-transform: uppercase;
     color: #E0EAFC;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
 
-.login .content-right p:hover {
+.login .content-right p:hover,
+.register .content-right p:hover {
     text-shadow: 0 0 0.4rem #E0EAFC;
 }
 
-.login .content-right h1 {
+.login .content-right h1,
+.register .content-right h1 {
     color: #E0EAFC;
 }
 
-.login .content-right .input {
+.login .content-right .input,
+.register .content-right .input {
     display: flex;
     align-items: center;
     border: 2px solid #E0EAFC;
     transition: all 0.4s ease-in-out;
 }
 
-.login .content-right .input:hover {
+.login .content-right .input:hover,
+.register .content-right .input:hover {
     box-shadow: 0 0 0.4rem #E0EAFC;
 }
 
-.login .content-right form {
+.login .content-right form,
+.register .content-right form {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.login .content-right form input {
+.login .content-right form input,
+.register .content-right form input {
     background: none;
     border: none;
     outline: none;
     color: #E0EAFC;
 }
 
-.login .content-right form input::placeholder {
+.login .content-right form input::placeholder,
+.register .content-right form input::placeholder {
     color: #E0EAFC;
 }
 
-.login .content-right .icon {
+.login .content-right .icon,
+.register .content-right .icon {
     padding-left: 0.4rem;
     color: #E0EAFC;
 }
 
-.login .content-right .icon-pass {
+.login .content-right .icon-pass,
+.register .content-right .icon-pass  {
     padding-left: 0.4rem;
     color: #E0EAFC;
     cursor: pointer;
 }
 
-.login .content-right button {
+.login .content-right button,
+.register .content-right button {
     background: none;
     color: #E0EAFC;
     border: 2px solid #E0EAFC;
@@ -106,18 +121,21 @@
     transition: all 0.4s ease-in-out;
 }
 
-.login .content-right button:hover {
+.login .content-right button:hover,
+.register .content-right button:hover {
     background-color: #E0EAFC;
     color: #6F3089;
     font-weight: bold !important;
 }
 
-.login .content-right a {
+.login .content-right a,
+.register .content-right a {
     text-decoration: none;
     color: #E0EAFC;
     transition: all 0.4s ease-in-out;
 }
 
-.login .content-right a:hover {
+.login .content-right a:hover,
+.register .content-right a:hover {
     text-shadow: 0 0 0.4rem #E0EAFC;
 }
