@@ -1,12 +1,6 @@
 /* Mobile */
 /* 320x568 (min) */
 /* 414x896 (max) */
-@media screen and (max-height: 490px) {
-    .not-support {
-        display: flex;
-    }
-}
-
 @media screen and (max-width: 319px) {
     .not-support {
         display: flex;
