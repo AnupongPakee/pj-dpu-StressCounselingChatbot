@@ -45,12 +45,12 @@ function Login() {
             <div className="content-form">
               <div className="input">
                 <FontAwesomeIcon icon={faUser} className='icon' />
-                <input type="text" style={STYLE.font_family.th} className='username' placeholder='ชื่อผู้ใช้ / อีเมล์' required />
+                <input type="text" style={STYLE.font_family.th} name='username' placeholder='ชื่อผู้ใช้ / อีเมล์' required />
               </div>
               <div className="input">
                 <FontAwesomeIcon icon={faShieldHalved} className='icon-pass' id='new_faHavled' onClick={() => showPassword("showpass_1")} />
                 <FontAwesomeIcon icon={faEye} className='icon-pass' id='new_faEye' style={{ display: "none" }} onClick={() => showPassword("showpass_1")} />
-                <input type="password" style={STYLE.font_family.th} className='password' id='new_password' placeholder='รหัสผ่าน' required />
+                <input type="password" style={STYLE.font_family.th} name='password' id='new_password' placeholder='รหัสผ่าน' required />
               </div>
               <button type="submit" style={STYLE.font_family.th}>ลงชื่อเข้าใช้</button> <br />
               <NavLink to={"/pj-dpu-StressCounselingChatbot/register"} style={STYLE.font_family.th}>สมัครบัญชีใหม่</NavLink>

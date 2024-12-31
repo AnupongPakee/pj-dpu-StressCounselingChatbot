@@ -129,5 +129,16 @@
 /* Desktop */
 /* 1280x720 (min) */
 /* 1920x1080 (max) */
-/* @media screen and (min-width: 1920px) {
-} */
+@media screen and (min-width: 1920px) {
+    * {
+        font-size: 24px;
+    }
+
+    .login .content-right .input {
+        max-width: 400px;
+    }
+
+    .login .content-right {
+        padding: 2.6rem;
+    }
+}
