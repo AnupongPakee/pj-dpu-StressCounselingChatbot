@@ -11,9 +11,13 @@
     * {
         font-size: 14px;
     }
-    .home .bg-2, .home .bg-3,
-    .login .bg-2, .login .bg-3,
-    .register .bg-2, .register .bg-3 {
+
+    .home .bg-2,
+    .home .bg-3,
+    .login .bg-2,
+    .login .bg-3,
+    .register .bg-2,
+    .register .bg-3 {
         display: none;
     }
 
@@ -27,7 +31,7 @@
         font-size: 2.6rem;
         max-width: 100px;
     }
-    
+
     .home .link a {
         font-size: 1rem;
         padding: 0.8rem;
@@ -82,7 +86,44 @@
         padding: 0.4rem 1rem;
         border-radius: 2rem;
     }
-    
+
+    .setting .content {
+        padding: 1rem;
+    }
+
+    .setting .content h1 {
+        padding: 0.4rem;
+        margin-bottom: 1.6rem;
+        border-radius: 2rem;
+    }
+
+    .setting .content .theme,
+    .setting .content .font {
+        padding: 0.4rem;
+        margin-bottom: 1rem;
+        border-radius: 2rem;
+    }
+
+    .setting .content label {
+        margin: 0 1rem;
+    }
+
+    .setting .content .test {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+    }
+
+    .setting .second-button {
+        margin-top: 2.6rem;
+    }
+
+    .setting .second-button button {
+        padding: 0.6rem;
+        margin-left: 1.6rem;
+        border-radius: 2rem;
+    }
+
 }
 
 @media screen and (min-width: 414px) {
@@ -107,6 +148,7 @@
 }
 
 @media screen and (min-width: 960px) {
+
     .home .bg-3,
     .login .bg-3,
     .register .bg-3 {

@@ -139,3 +139,88 @@
 .register .content-right a:hover {
     text-shadow: 0 0 0.4rem #E0EAFC;
 }
+
+/* Components Setting.jsx */
+.setting {
+    background-color: #6F3089 !important;
+}
+
+.setting .content {
+    display: block !important;
+    align-items: baseline !important;
+}
+
+.setting .content h1 {
+    text-align: center;
+    color: #E0EAFC;
+    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.6);
+}
+
+.setting .content h2 {
+    padding: 0 0.6rem;
+    color: #E0EAFC;
+}
+
+.setting .content .theme,
+.setting .content .font {
+    display: flex;
+    align-items: center;
+    border: 2px solid #E0EAFC;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.setting .content .theme::-webkit-scrollbar,
+.setting .content .font::-webkit-scrollbar {
+    display: none;
+}
+
+.setting .content label {
+    color: #E0EAFC;
+}
+
+.setting .content .test {
+    background-color: aliceblue;
+}
+
+.setting .second-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.setting .second-button button {
+    background: none;
+    color: #E0EAFC;
+    outline: none;
+    border: 2px solid #E0EAFC;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.setting .second-button button:hover {
+    background-color: #E0EAFC;
+    color: #6F3089;
+    font-weight: bold !important;
+}
+
+/* Components Test.jsx */
+.c-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #6F3089;
+}
+
+.c-test h1 {
+    font-size: 2rem;
+    color: #E0EAFC;
+    margin-bottom: 2rem;
+}
+
+.c-test a {
+    color: #E0EAFC;
+    text-decoration: none;
+}
