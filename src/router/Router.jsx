@@ -11,7 +11,7 @@ import TEST from "../test/Test"
 const router = createBrowserRouter([
     {
         path: "/pj-dpu-StressCounselingChatbot/",
-        element: <APP/>
+        element: <TEST/>
     },
     {
         path: "/pj-dpu-StressCounselingChatbot/register",
